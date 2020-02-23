@@ -8,19 +8,14 @@
       - cookiecutter
       - coreutils
       - dos2unix
-      - emacs
       - fdupes
-      - figlet
-      - fortune
       - github/gh/gh # https://github.com/cli/cli
       - git-extras
-      - git-town
       - gnupg
       - graphviz
       - hr
       - httpie
       - jq
-      - lazygit
       - lnav
       - md5deep
       - mmv
@@ -29,16 +24,11 @@
       - p7zip
       - pandoc
       - pgcli
-      - poppler  # for lesspipe
       - pv
-      - qt
       - readline
       - redis
       - ruby-build
-      - sox  # sound processing lib
-      - sqlite
       - thefuck
-      - w3m
 
 - name: find where asdf was installed
   command: "brew --prefix asdf"
@@ -114,9 +104,3 @@
 
 - name: asdf reshim
   command: asdf reshim
-
-- name: install spacemacs
-  git:
-    repo: https://github.com/syl20bnr/spacemacs
-    dest: "{{ ansible_env.HOME }}/.emacs.d"
-    version: master

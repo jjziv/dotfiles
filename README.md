@@ -1,7 +1,5 @@
 # Yuhonas dotfiles ![](https://github.com/yuhonas/dotfiles/workflows/ci/badge.svg)
 
-![Screenshot](./screenshot.png)
-
 ## What's in the box
 
 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) with [antigen](https://github.com/zsh-users/antigen) for plugin management with a sprinkling of 256 color's using [exa](https://github.com/ogham/exa) all rendered using [hyper](https://hyper.is/)
@@ -33,57 +31,45 @@
 
 ### Bootstrapped with your favourite applications
 
-* alfred
-* 1password
-* dropbox
-* evernote
-* flux
-* google-chrome
-* handbrake
-* libreoffice
-* rectangle
-* skype
-* spotify
-* torbrowser
-* uninstallpkg
+ * 1password
+ * bitbar
+ * drop-to-gif
+ * dropbox
+ * firefox
+ * spectacle
+ * spotify
+ * sublime-text
+ * uninstallpkg
+ * vlc
 
 ### A handy set of system packages
 
 * aria2
-* asdf
+* awscli
+* cookiecutter
 * coreutils
-* ctags
 * dos2unix
-* fasd
 * fdupes
-* figlet
-* fpp
+* github/gh/gh
+* git-extras
 * gnupg
+* graphviz
 * hr
-* htop-osx
 * httpie
 * jq
-* lesspipe
 * lnav
 * md5deep
-* ncdu
+* mmv
+* neofetch
 * nmap
+* p7zip
 * pandoc
-* poppler
-* progress
+* pgcli
 * pv
-* qt
 * readline
-* rename
+* redis
 * ruby-build
-* the_silver_searcher
-* tig
-* tldr
-* tmux
-* tree
-* unrar
-* wget
-* zsh
+* thefuck
 
 ### A better Mac quicklook
 
@@ -107,5 +93,5 @@ The following quicklook plugins
 Use the bootstrap script to install any depedencies and run the playbook
 
 ```
-$ bash <(curl -s https://raw.githubusercontent.com/yuhonas/mac-dev-playbook/master/bootstrap.sh)
+$ bash <(curl -s https://raw.githubusercontent.com/jjziv/dotfiles/master/bootstrap.sh)
 ````

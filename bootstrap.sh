@@ -5,7 +5,7 @@ set -e
 
 SRC_DIRECTORY="$HOME/src"
 ANSIBLE_DIRECTORY="$SRC_DIRECTORY/ansible"
-ANSIBLE_REPO="https://github.com/yuhonas/dotfiles.git"
+ANSIBLE_REPO="https://github.com/jjziv/dotfiles.git"
 export ANSIBLE_NOCOWS=1
 
 
@@ -60,6 +60,6 @@ fi
 
 if [[ -z "$NO_PROVISION" ]]; then
     # Provision the box
-    ansible-playbook --ask-become-pass --become-method=sudo -i $ANSIBLE_DIRECTORY/inventory $ANSIBLE_DIRECTORY/playbook.yml
+    ansible-playbook --ask-become-pass --become-method=sudo -i $ANSIBLE_DIRECTORY/playbook.yml
 fi
 

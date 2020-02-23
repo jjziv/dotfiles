@@ -1,22 +1,3 @@
-[ ] mouse logitech gestures
-[x] grub logo
-[ ] display manager login
-[ ] lightbar
-[x] display artifact
-[ ] keybindings for mac
-[x] touchpad gestures
-[ ] xrandr
-[x] sound fix https://forums.linuxmint.com/viewtopic.php?t=91453
-[ ] apps (spotify, chrome)
-[x] media keys
-[ ] kubuntu config
-[ ] dropbox
-[x] github commandline
-[x] docker
-[ ] parcellite
-[ ] hide tab bar for screenshot
-
-
 ## keybindings
 
 CMD-C - Copy

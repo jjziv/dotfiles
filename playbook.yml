@@ -17,8 +17,3 @@
   roles:
     - osx-apps
     - osx-defaults
-
-- hosts: os_Debian
-  connection: local
-  roles:
-    - {role: linux-apps, tags: []}

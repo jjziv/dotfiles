@@ -129,9 +129,6 @@ defaults write com.apple.DiskUtility advanced-image-options -bool true
 ## Show all processes in Activity Monitor
 defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
-## Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
-
 # Disable guest account logins
 # https://gist.github.com/justinpawela/8a924f36f86bac2b563bf6832eefff25
 
